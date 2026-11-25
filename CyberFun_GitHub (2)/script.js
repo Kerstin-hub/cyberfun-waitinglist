@@ -1,1 +1,0 @@
-document.getElementById('birthday').max=new Date().toISOString().slice(0,10);document.getElementById('waiting').addEventListener('submit',function(e){e.preventDefault();document.getElementById('status').textContent='Demo complete! On the live site, your registration would be submitted and a confirmation email sent. No data has been saved.';});
